@@ -94,13 +94,14 @@
     .burgermenu__container-search{
         max-width: 70%;
     }
-}
-
-@media  screen and (max-width: 450px) {
     .burgermenu__container-text{
         font-size: calc(20px + (50 - 20) * ((100vw - 320px) / (1200 - 320)));
         float: left;
+        margin-top: 20px;
     }
+}
+
+@media  screen and (max-width: 450px) {
     .burgermenu__container{
         padding: 0;
         height: 1000px;
